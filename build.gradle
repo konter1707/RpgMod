@@ -21,6 +21,7 @@ dependencies {
     mappings "net.fabricmc:yarn:${minMinecraftVersion}+build.${mappingsBuild}:v2"
     modImplementation "net.fabricmc:fabric-loader:${minLoaderVersion}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${apiVersion}"
+    modImplementation files('libs/advancementsfullscreen-mc1.20.2+1.0.jar')
 }
 
 processResources {

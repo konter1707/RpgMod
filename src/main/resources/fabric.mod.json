@@ -11,20 +11,20 @@
     "sources": "${repoUrl}"
   },
   "license": "MIT",
-  "icon": "assets/xyzbook/icon.png",
+  "icon": "assets/rpgmod/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.diskree.xyzbook.XYZBook"
+      "com.marshmallow.rpgmod.RpgMod"
     ]
   },
   "mixins": [
-    "xyzbook.mixins.json"
+    "rpgmod.mixins.json"
   ],
   "depends": {
     "java": ">=${minJavaVersion}",
     "minecraft": ">=${minMinecraftVersion}",
     "fabricloader": ">=${minLoaderVersion}"
   },
-  "accessWidener": "xyzbook.accesswidener"
+  "accessWidener": "rpgmod.accesswidener"
 }
